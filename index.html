@@ -5,31 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana-speak</title>
-    <style>
-        textarea{
-            width: 80%;
-            height: 10vh;
-            display: block;
-            padding: 1rem;
-            margin: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>talk banana</h1>
-    <textarea class="input-btn" id="txt-input" placeholder="Enter someting in English! It'll be converted to Minion Language"></textarea>
-    <button id="btn-translator">Translate</button>
+    <nav class="nav">
+        <div class="navdiv"> Banana Speak
 
-    <div style="font-size: larger;">Output will come here 👇</div>
+        </div>
+
+    </nav>
+    
+    <textarea class="input-btn" id="txt-input" placeholder="Enter someting in English! It'll be converted to Minion Language"></textarea>
+    <button id="btn-translator"><strong>Translate to Banana</strong></button>
+
+    <div style="font-size: larger; padding-left: 1rem;">Output will come here 👇</div>
     <div id="output"></div>
+
+    <footer class="footer">
+        <p>This is a fun translator from English to Banana. For those who dont know where banana lanaguage is spoken it's the lanaguage of Minions!</p>
+    </footer>
 
 
     <script src="app.js" type="text/javascript"></script>
